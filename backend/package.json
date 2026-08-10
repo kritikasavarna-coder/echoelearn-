@@ -1,0 +1,20 @@
+{
+  "name": "echoelearn-backend",
+  "version": "1.0.0",
+  "description": "EchoeLearn backend API using Express and Google Gemini.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@google/genai": "^2.16.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+} 
